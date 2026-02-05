@@ -315,7 +315,7 @@ Invalid instructions highlighted in red.
 
 # ----------------- UI -----------------
 st.set_page_config(layout="wide", page_title="Advanced MIPS Simulator")
-st.title("🧠 Advanced MIPS Pipeline Simulator")
+st.title("🧠 MIPS Pipeline Simulator")
 
 if "sim" not in st.session_state:
     st.session_state.sim = MIPSPipeline()
@@ -381,7 +381,7 @@ with col2:
     #     st.graphviz_chart(draw_datapath(sim))
 
 
-# ----------------- STATIC FOOTER -----------------
+# ----------------- FOOTER -----------------
 st.markdown("""
 <style>
 .footer {
