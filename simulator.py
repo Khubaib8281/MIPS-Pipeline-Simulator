@@ -314,7 +314,7 @@ Invalid instructions highlighted in red.
 """)
 
 # ----------------- UI -----------------
-st.set_page_config(layout="wide", page_title="Advanced MIPS Simulator")
+st.set_page_config(layout="wide", page_title="MIPS Pipeline Simulator")
 st.title("🧠 MIPS Pipeline Simulator")
 
 if "sim" not in st.session_state:
